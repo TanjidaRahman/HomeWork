@@ -1,4 +1,4 @@
-package hw5Q2Constructor;
+package hw5Q3Constructor;
 
 public class Student {
 
@@ -11,16 +11,14 @@ public class Student {
 	public Student() {
 		System.out.println("This is from default Constructor of Student class");
 	}
-
+	
 	// Parameterized constructor declared.
 	public Student(String stName, int stID, char stSex, boolean stIsProgrammer, float grade) {
 		this.stName = stName;
 		this.stID = stID;
 		this.stIsProgrammer = stIsProgrammer;
 		this.grade = grade;
-		System.out.println("Student name:" +stName + "," + "Student ID:" +stID + "," + "Is student a programmer?:"
-				+ "," + stIsProgrammer + "Student grade:" + "," + grade + ",");
-
+		System.out.println("Student name :" +stName + ", Student ID :" +stID + ", Student grade:" + grade+ ", Is student a programmer? :"
+				+stIsProgrammer);
 	}
-
 }

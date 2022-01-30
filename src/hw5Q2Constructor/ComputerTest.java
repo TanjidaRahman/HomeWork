@@ -10,7 +10,5 @@ public class ComputerTest {
 		Computer computer02 = new Computer("Apple", "MacBook Air", "MacOS Mojave", 800, false, 'A');
 		System.out.println(".....................................................................");
 		Computer computer03 = new Computer("Lenovo", "IdealPad", "Windows 11", 750, false, 'A');
-
 	}
-
 }

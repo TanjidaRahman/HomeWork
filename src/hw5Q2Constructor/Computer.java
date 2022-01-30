@@ -8,7 +8,7 @@ public class Computer {
 	public boolean madeInUSA;
 	public char grade;
 	
-//Default constructor declared.
+	//Default constructor declared.
 	public Computer() {
 		System.out.println("This is from default constructor of computer class");
 	}
@@ -21,9 +21,7 @@ public class Computer {
 		this.price = price;
 		this.madeInUSA = madeInUSA;
 		this.grade = grade;
-		System.out.println("Computer brand:"+ brand + ","+ "Model:"+ model + ","+ "Operating system:" 
-		+ operatingSystem +"," + "Price"+ price +"," + "MadeInUSA:"+ madeInUSA + "Grade:"+";");
-					
+		System.out.println("Computer brand :"+ brand + ", Model :"+ model + ", Operating system :" 
+		+ operatingSystem +", Price :"+ price + ", Grade :"+ grade + ", MadeInUSA :"+ madeInUSA );				
 	}
-
 	}
